@@ -23,5 +23,9 @@ def test_3_returns_THREE
 	assert_equal(7, success(7))
 end
 
+def test_5_returns_FIVE
+	assert_equal("FIVE", success(5))
+end
+
 
 end
