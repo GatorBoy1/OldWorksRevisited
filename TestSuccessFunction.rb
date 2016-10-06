@@ -27,5 +27,9 @@ def test_5_returns_FIVE
 	assert_equal("FIVE", success(5))
 end
 
+def test_3_times_5_returns_success
+	assert_equal("SUCCESS!", success(15))
+end
+
 
 end
