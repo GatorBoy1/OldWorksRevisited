@@ -3,6 +3,16 @@ require_relative "SuccessFunction.rb"
 
 class TestSuccessFunction <Minitest::Test
 	def test_1_equals_1
-		assert_equals_(1,1)
+		assert_equal(1,1)
 	end
+def test_1_returns_1
+	#this value in () is the value in variable called in function file
+	assert_equals(1, success(1))
+end
+
+
+
+
+
+
 end
