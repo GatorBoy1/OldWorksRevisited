@@ -19,8 +19,9 @@ def test_7_returns_7
 	assert_equal(7, success(7))
 end
 
-
-
+def test_3_returns_THREE
+	assert_equal(7, success(7))
+end
 
 
 end
